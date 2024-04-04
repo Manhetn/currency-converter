@@ -1,0 +1,12 @@
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  background-color: #f4f4f4;
+
+  @media screen and (min-width: 780px) {
+    padding-top: 0px;
+    justify-content: center;
+  }
+}
